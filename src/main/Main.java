@@ -84,7 +84,7 @@ public class Main extends JFrame {
                int loginResult = db.login(loginID, loginPW);
                if(loginResult == 1000) {
             	   System.out.println("로그인성공했으니 다른창을 띄워주세요");
-            	   Lotto1 lf = new Lotto1();
+            	   LottoFrame lf = new LottoFrame();
             	   lf.setVisible(true);
             	   setVisible(false);
                }else {
